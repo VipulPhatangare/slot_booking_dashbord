@@ -62,12 +62,4 @@ document.addEventListener('DOMContentLoaded',async function() {
             row.style.display = text.includes(input) ? '' : 'none';
         });
     });
-
-    // Add button functionality (placeholder)
-    const addBtn = document.querySelector('.add-btn');
-    addBtn.addEventListener('click', function() {
-        alert('Add New Student functionality would go here');
-        // In a real implementation, this would open a modal/form
-        // to add new student information
-    });
 });
